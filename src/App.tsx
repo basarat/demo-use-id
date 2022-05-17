@@ -1,6 +1,13 @@
+import { PersonForm } from './PersonForm';
+
 function App() {
   return (
-    null
+    <>
+      <h1>Host</h1>
+      <PersonForm />
+      <h1>Guest</h1>
+      <PersonForm />
+    </>
   );
 }
 
